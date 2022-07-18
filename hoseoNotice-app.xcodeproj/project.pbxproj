@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		96280E3E287FD6FB00B442D8 /* NoticeDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96280E3D287FD6FB00B442D8 /* NoticeDetailController.swift */; };
 		96EABC4228646FA800215A91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96EABC4128646FA800215A91 /* AppDelegate.swift */; };
 		96EABC4428646FA800215A91 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96EABC4328646FA800215A91 /* SceneDelegate.swift */; };
 		96EABC4628646FA800215A91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96EABC4528646FA800215A91 /* ViewController.swift */; };
 		96EABC4928646FA800215A91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96EABC4728646FA800215A91 /* Main.storyboard */; };
 		96EABC4B28646FAA00215A91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96EABC4A28646FAA00215A91 /* Assets.xcassets */; };
 		96EABC4E28646FAA00215A91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96EABC4C28646FAA00215A91 /* LaunchScreen.storyboard */; };
+		96EABC56286478CB00215A91 /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96EABC55286478CB00215A91 /* DetailController.swift */; };
+		96EABC582864804F00215A91 /* NoticeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96EABC572864804F00215A91 /* NoticeController.swift */; };
+		96EABC5A2869CD3B00215A91 /* NoticeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96EABC592869CD3B00215A91 /* NoticeCell.swift */; };
+		96EABC5C286BFF9E00215A91 /* GroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96EABC5B286BFF9E00215A91 /* GroupCell.swift */; };
+		96EABC5E286C0AB800215A91 /* GroupHomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96EABC5D286C0AB800215A91 /* GroupHomeController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		96280E3D287FD6FB00B442D8 /* NoticeDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeDetailController.swift; sourceTree = "<group>"; };
 		96EABC3E28646FA800215A91 /* hoseoNotice-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hoseoNotice-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96EABC4128646FA800215A91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96EABC4328646FA800215A91 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +31,11 @@
 		96EABC4A28646FAA00215A91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96EABC4D28646FAA00215A91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		96EABC4F28646FAA00215A91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96EABC55286478CB00215A91 /* DetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
+		96EABC572864804F00215A91 /* NoticeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeController.swift; sourceTree = "<group>"; };
+		96EABC592869CD3B00215A91 /* NoticeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeCell.swift; sourceTree = "<group>"; };
+		96EABC5B286BFF9E00215A91 /* GroupCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupCell.swift; sourceTree = "<group>"; };
+		96EABC5D286C0AB800215A91 /* GroupHomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupHomeController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +75,12 @@
 				96EABC4A28646FAA00215A91 /* Assets.xcassets */,
 				96EABC4C28646FAA00215A91 /* LaunchScreen.storyboard */,
 				96EABC4F28646FAA00215A91 /* Info.plist */,
+				96EABC55286478CB00215A91 /* DetailController.swift */,
+				96EABC572864804F00215A91 /* NoticeController.swift */,
+				96EABC592869CD3B00215A91 /* NoticeCell.swift */,
+				96EABC5B286BFF9E00215A91 /* GroupCell.swift */,
+				96EABC5D286C0AB800215A91 /* GroupHomeController.swift */,
+				96280E3D287FD6FB00B442D8 /* NoticeDetailController.swift */,
 			);
 			path = "hoseoNotice-app";
 			sourceTree = "<group>";
@@ -138,8 +156,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96EABC5C286BFF9E00215A91 /* GroupCell.swift in Sources */,
+				96280E3E287FD6FB00B442D8 /* NoticeDetailController.swift in Sources */,
+				96EABC582864804F00215A91 /* NoticeController.swift in Sources */,
+				96EABC56286478CB00215A91 /* DetailController.swift in Sources */,
 				96EABC4628646FA800215A91 /* ViewController.swift in Sources */,
+				96EABC5A2869CD3B00215A91 /* NoticeCell.swift in Sources */,
 				96EABC4228646FA800215A91 /* AppDelegate.swift in Sources */,
+				96EABC5E286C0AB800215A91 /* GroupHomeController.swift in Sources */,
 				96EABC4428646FA800215A91 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
